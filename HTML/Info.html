@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>About Us</title>
+    <style>
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ nav{
+    top: 0px;
+    background-color: gray;
+ }
+.dropbtn {
+  background-color:beige;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color:darkgray;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color:beige;
+}
+
+main {
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 200px;
+    background-color: tomato;
+}
+h2{
+    color:gainsboro;
+}
+</style>
+</head>
+<body>
+    <nav>
+    <div class="dropdown">
+        <button class="dropbtn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" width="20px" height="20px"></button>
+        <div class="dropdown-content">
+          <a href="index.html">HOME</a>
+        </div>
+    </div>
+    </nav>
+
+    <main>
+        <center><img src="Angelo1.jpg"width="160px" height="160px"/></center>
+        <section id="education">
+            <h2>Education</h2>
+            <!-- Add education details here -->
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <!-- Add work experience details here -->
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <!-- Add skills details here -->
+        </section>
+    </main>
+</body>
+<script>
+function openNav() {
+    $sideNav.addClass("active");
+}
+
+</script>
+</html>
